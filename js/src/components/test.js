@@ -1,0 +1,1 @@
+export let fuckingTest = 'fuck inside the test';

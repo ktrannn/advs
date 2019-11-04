@@ -1,0 +1,43 @@
+// Colors
+
+// Primary colors are done using Native CSS Variables
+// Use with the following
+// var(--color-primary);
+// var(--color-primary-dark);
+
+$color_white: #fff;
+$color_light_grey_0: #fafafa;
+$color_light_grey_1: #f4f4f4;
+$color_light_grey_2: #ececec;
+$color_medium_grey_1: #bbb;
+$color_medium_grey_2: #777;
+$color_dark_grey_1: #333;
+$color_dark_grey_2: #222;
+$color_black: #000;
+
+$color_success: #6bbf49;
+$color_cancel: #cb7163;
+$color_error: #d0021b;
+
+$color_twitter: #08a0e9;
+$color_facebook: #3b5998;
+$color_google: #4285f4;
+$color_instagram: #cd486b;
+$color_youtube: #f00;
+$color_yelp: #c41200;
+
+$color_showroom_green: #6bc04b;
+$color_showroom_dark_green: darken($color_showroom_green, 15%);
+
+// Font Awesome
+$font_awesome: "Font Awesome 5 Pro", sans-serif;
+
+// Shadows
+$light_shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.1);
+$shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.2);
+$high_shadow: 0 0.6rem 3.6rem rgba(0, 0, 0, 0.15);
+$inset_shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+$inset_dark_shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+
+// Spacing
+$wrapper: calc(50% - 55rem);
